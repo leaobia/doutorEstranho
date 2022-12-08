@@ -16,3 +16,27 @@ header{
 .links-container a:hover{
     background-color: #E62721;
 }
+@media (max-width:768px) {
+    .links-container{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #000;
+        transform: translateX(100%);
+        z-index: 1;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 65px;
+        font-size: 2.5rem;
+        opacity: 0;
+        transition: all 1s;
+    }
+
+    .menu-burger-container.active ~.links-container{
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
