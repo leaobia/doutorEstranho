@@ -50,8 +50,12 @@ main{
     border-radius: 10px;
     background-color: #E62721;
     margin-top: 30px;
+    border: 1px solid transparent;
+    transition: border ease-in-out .6s;
 }
-
+.movie-button:hover{
+    border: 1px solid #ffff;
+}
 .social-container ul{
     display: flex;
     flex-direction: column;
