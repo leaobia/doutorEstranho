@@ -29,6 +29,7 @@
 - JAVASCRIPT
 - Markdown
 - Responsividade
+- VLibras (tecnologia de acessibilidade)
 
   ## Direitos autorais
   
