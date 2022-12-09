@@ -8,15 +8,15 @@
 
   ## Personagens
 
-  ![](./img/CapturarPersonagens.PNG.png)
+  ![](./img/CapturarPersonagens.PNG)
   
   ## Galeria
 
-  ![](./img/CapturarGaleria.PNG.png)
+  ![](./img/CapturarGaleria.PNG)
 
   ## Vídeos
 
-  ![](./img/CapturarVideos.PNG.png)
+  ![](./img/CapturarVideos.PNG)
 
   ## Direitos autorais
   
