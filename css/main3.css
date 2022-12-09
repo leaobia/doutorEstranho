@@ -54,5 +54,35 @@ main {
     transition: all 1s;
 }
 
+@media (max-width:768px) {
 
+    main{
+        height: auto;
+    }
+    .container-slide {
+
+        width: 50vw;
+        height: 40vh;
+
+    }
+    
+    .container-items {
+   
+        width: 50vw;
+        height: 40vh;
+       
+    }
+    
+    .item {
+        width: 50vw;
+        height: 40vh;
+        
+    }
+
+    .item img {
+        width: 50vw;
+        height: 40vh;
+    }
+    
+}
 
