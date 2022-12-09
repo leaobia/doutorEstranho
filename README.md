@@ -18,6 +18,10 @@
 
   ![](./img/CapturarVideos.PNG)
 
+ ##  Protótipo do site 
+
+- [Clique aqui para ver o figma](https://www.figma.com/file/G17Secn7GAdWm8hF5brSw2/desafioStrange?node-id=0%3A1&t=xttJjaHzU3shjnsU-0)
+
   ## Direitos autorais
   
    * https://www.youtube.com/watch?v=24G8dGNUsXM 
