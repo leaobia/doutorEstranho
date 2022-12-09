@@ -1,0 +1,116 @@
+main{
+    width: 100%;
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 48px;
+    max-width: 1200px;
+}
+
+.card {
+    width: 320px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+}
+
+.card:before {
+    background-color: #0008;
+    content: "Clique aqui para assistir";
+    display: block;
+    color: #ffff;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: grid;
+    place-content: center;
+    font-weight: 700;
+    transform: translateY(100%);
+    transition: ease-in-out .6s;
+}
+
+.card:hover::before {
+    transform: translateY(0%);
+}
+/* TABLET */
+
+.back-button{
+    height: 40px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 300;
+    border-radius: 10px;
+    background-color: #E62721;
+    border: 1px solid transparent;
+    transition: border ease-in-out .6s;
+}
+.back-button:hover{
+    border: 1px solid #ffff;
+}
+
+/* TABLET */
+@media (max-width:960px){
+    .main{
+        max-width: 672px;
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .card-container{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .card{
+        width: 500px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+    }    
+    .card.card:hover::before{
+        display: none;
+    }
+    .card-container a img{
+        width: 500px;
+        height: 255px;
+    }
+}
+
+/* MOBILE */
+@media (max-width:640px){
+    .main{
+        max-width: 592px;
+        width: 100%;
+        align-items: center;
+        height: auto;
+    }
+
+    .card{
+        width: 540px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+       
+        width: 300px;
+       
+
+    } 
+    .card-container a img{
+        width: 300px;
+        height: 187.5px;
+        
+        
+    }
+}
