@@ -1,0 +1,31 @@
+main{
+    padding: 120px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.personagens-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 100px;
+    max-width: 1000px;
+}
+.personagem-container{
+    width: 340px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.personagem-title{
+    font-size: 2rem;
+}
+.personagem-description{
+    font-weight: 300;
+}

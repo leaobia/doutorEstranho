@@ -1,0 +1,17 @@
+header{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-top: 45px;
+}
+
+h1, h2{
+    font-size: 2rem;
+    font-weight: 200;
+}
+.movie-title{
+    font-size: 2.6rem;
+    font-style: italic;
+    color: #E62721;
+    transform: translateY(-20px);
+}
