@@ -1,5 +1,6 @@
 main{
     padding: 120px 50px;
+    padding-bottom: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -28,4 +29,21 @@ main{
 }
 .personagem-description{
     font-weight: 300;
+}
+.back-button{
+    height: 40px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 300;
+    border-radius: 10px;
+    background-color: #E62721;
+    margin-top: 50px;
+    border: 1px solid transparent;
+    transition: border ease-in-out .6s;
+}
+.back-button:hover{
+    border: 1px solid #ffff;
 }

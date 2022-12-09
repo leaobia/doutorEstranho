@@ -1,14 +1,14 @@
 main {
     justify-content: center;
     align-items: center;
-    padding: 100px 50px;
+    padding: 50px 10px;
 }
 
 .container-slide {
     display: flex;
     justify-content: space-between;
-    width: 50vw;
-    height: 50vh;
+    width: 65vw;
+    height: 60vh;
     background-color: black;
     box-shadow: 0 20px 30px #00000088;
 }
@@ -16,14 +16,14 @@ main {
 .container-items {
     position: absolute;
     display: flex;
-    width: 50vw;
-    height: 50vh;
+    width: 65vw;
+    height: 60vh;
     overflow: hidden;
 }
 
 .item {
-    width: 50vw;
-    height: 50vh;
+    width: 65vw;
+    height: 60vh;
     transition: all 1s;
 }
 
@@ -32,8 +32,8 @@ main {
 }
 
 .item img {
-    width: 50vw;
-    height: 50vh;
+    width: 65vw;
+    height: 60vh;
 }
 
 .action-button {
@@ -54,6 +54,23 @@ main {
     transition: all 1s;
 }
 
+.back-button{
+    height: 40px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 300;
+    border-radius: 10px;
+    background-color: #E62721;
+    border: 1px solid transparent;
+    transition: border ease-in-out .6s;
+}
+.back-button:hover{
+    border: 1px solid #ffff;
+}
+
 @media (max-width:768px) {
 
     main{
@@ -61,26 +78,26 @@ main {
     }
     .container-slide {
 
-        width: 50vw;
+        width: 65vw;
         height: 40vh;
 
     }
     
     .container-items {
    
-        width: 50vw;
+        width: 65vw;
         height: 40vh;
        
     }
     
     .item {
-        width: 50vw;
+        width: 65vw;
         height: 40vh;
         
     }
 
     .item img {
-        width: 50vw;
+        width: 65vw;
         height: 40vh;
     }
     
