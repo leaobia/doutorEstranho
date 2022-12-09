@@ -1,6 +1,7 @@
 main{
     width: 100%;
     padding-top: 22px;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -43,6 +44,7 @@ main{
 /* TABLET */
 
 .back-button{
+    
     height: 40px;
     width: 250px;
     display: flex;
