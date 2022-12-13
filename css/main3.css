@@ -2,7 +2,6 @@ main {
     justify-content: center;
     align-items: center;
     padding: 50px 10px;
-    padding-bottom: 18px;
 }
 
 .container-slide {
@@ -55,6 +54,11 @@ main {
     transition: all 1s;
 }
 
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .back-button{
     height: 40px;
     width: 250px;
@@ -67,7 +71,6 @@ main {
     background-color: #E62721;
     border: 1px solid transparent;
     transition: border ease-in-out .6s;
-    
 }
 .back-button:hover{
     border: 1px solid #ffff;
